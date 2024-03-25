@@ -69,19 +69,32 @@ main{
   left:-125px;
   scale:.8;
 }
-#formulario{
+#formulario,#check{
   display:flex;
   flex-direction:column;
   align-items:center;
   margin:180px;
   font-size:1.5rem;
 }
+#check{
+  display:none;
+  margin:130px 0px 0px 0px;
+  flex-direction:column;
+}
+h1{
+  margin:7px 0px;
+  font-size:1.3rem;
+}
+p{
+  color:#B9BAC1;
+  margin:10px 0px 0px 0px;
+}
 input{
   padding:10px;
   width:300px;
   height:20px;
   border-radius:13px;
-  font-size:1.5rem;
+  font-size:.9rem;
   margin:4px 0px;
   border:solid .5px #DADBEB;
   outline:none;
@@ -169,12 +182,15 @@ label{
   margin:170px;
   font-size:1.6rem;
 }
+#check{
+  margin-left:130px;
+}
 input{
   padding:10px;
   width:300px;
   height:20px;
   border-radius:13px;
-  font-size:.8rem;
+  font-size:.4rem;
   margin:4px 0px;
   border:solid .1px #DADBEB;
   outline:none;
@@ -196,6 +212,7 @@ label{
 }
 }
 .verify{
+  display:none;
   margin:2px 0px 0px 5px;
   color:red;
 }
