@@ -22,7 +22,7 @@ main{
   align-items:center;
   width:100%;
   height:270px;
-  background:url("../images/bg-main-mobile.png");
+  background:url("bg-main-mobile.png");
 }
 #cartao-1,#cartao-2{
   position:relative;
@@ -129,7 +129,7 @@ label{
     flex-direction:row;
   }
   #group-cartao{
-    background:url("../images/bg-main-desktop.png");
+    background:url("bg-main-desktop.png");
     width:500px;
     height:100vh;
   }
