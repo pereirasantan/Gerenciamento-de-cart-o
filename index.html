@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HTML,CSS,JS</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="../conf.js" defer></script>
+</head>
+<body>
+  <main>
+    <section id="group-cartao">
+      <img src="../images/bg-card-back.png" id="cartao-1"/>
+      <i id="cvc">800</i>
+      <img src="../images/bg-card-front.png" id="cartao-2"/>
+      <i id="card-number">95722 4856 9374 068E</i>
+      <i id="card-name">Fabian holder</i>
+      <i id="mmyy">09/07</i>
+      <img id="logo" src="../images/card-logo.svg"/>
+    </section>
+    <section id="formulario">
+      <form action="">
+        <label>
+          CARDHOLDER NAME
+          <input type="text" placeholder="e.g Janeapleseed" name="name" id="name"/>
+          <i class="verify">error</i>
+        </label>
+        <label>
+        CARD NUMBER
+        <input type="text" placeholder="e.g 1234 5678 9123 0000" id="num"/>
+        <i class="verify">error</i>
+        </label>
+        <div id="dado">
+          <label>
+        EXP. DATE
+        <input type="number" placeholder="MM" id="mm"/>
+        <i class="verify">error</i>
+        </label>
+        <label>
+          (MM/YY)
+          <input type="number" placeholder="YY" id="yy"/>
+          <i class="verify">error</i>
+        </label>
+        <label>
+        CVC
+        <input type="number" placeholder="000" id="dig"/>
+        <i class="verify">error</i>
+        </label>
+        </div>
+        <button>Confirm</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
